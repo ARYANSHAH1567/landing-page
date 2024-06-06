@@ -1,0 +1,141 @@
+
+
+.h1 {
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.hero-img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    /* vertical-align: middle; */
+    max-width: 100%;
+    display: inline-block;
+    width: 50%;
+}
+
+.hero-button-img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    vertical-align: middle;
+    max-width: 100%;
+    display: inline-block;
+   margin-top: 45px;
+    width: 30%;
+}
+
+/* Apply white background to the body */
+
+  
+.hero{
+    background-image: linear-gradient(to right top, #151218, #17141c, #1a161f, #1c1723, #1e1927);
+}
+
+.text-style-gradient{
+    display: inline-block;
+    background-image: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e) !important;
+    background-size: 200% !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+}
+
+.b-white:after {
+    background: white;
+  }
+  .b-dark:after {
+    background: #151218;
+  }
+  
+  /*GRADIENTS*/
+    .b-white, .b-white:before {
+      background: rgba(252,144,126,1);
+      background: -moz-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(252,144,126,1)), color-stop(100%, rgba(159,110,237,1)));
+      background: -webkit-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: -o-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: -ms-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc907e', endColorstr='#9f6eed', GradientType=1 );
+    }
+    .b-dark, .b-dark:before {
+      background: rgba(252,144,126,1);
+      background: -moz-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(252,144,126,1)), color-stop(100%, rgba(159,110,237,1)));
+      background: -webkit-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: -o-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: -ms-linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      background: linear-gradient(145deg, rgba(252,144,126,1) 0%, rgba(159,110,237,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc907e', endColorstr='#9f6eed', GradientType=1 );
+    }
+  /*END GRADIENTS*/
+  /*BASE BUTTON*/
+  .btn-secondory {
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.8s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btn-secondory:hover {
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+  }
+  .btn-secondory:hover:after {
+    left: 100%;
+    top: 100%;
+    bottom: 100%;
+    right: 100%;
+  }
+  .btn-secondory:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 30px;
+    transition: all .5s;
+  }
+  .btn-secondory.no-border-bg:before {
+    content: none;
+  }
+  .b-dark.no-border-bg:after {
+       background: transparent; 
+  }
+  .btn-secondory:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    bottom: 2px;
+    right: 2px;
+    z-index: -1;
+    border-radius: 30px;
+    transition: all .5s;
+  }
+  .text-btn-secondory {
+      padding: 12px 0px;
+      transition: all 0.8s;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .text-btn-secondory:hover {
+      text-shadow: none;
+  }
+  .text-btn-secondory:hover .right-arrow-svg {
+      left: 5px;
+  }
+  .text-btn-secondory:before, .text-btn-secondory:before {
+      content: none;
+  }
+  

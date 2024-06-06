@@ -1,4 +1,5 @@
 "use client"
+import { Key } from "lucide-react";
 import React, { useState } from "react";
 
 const Target: React.FC = () => {
@@ -122,7 +123,7 @@ const Target: React.FC = () => {
       <div className="b-dark h-[44vw] w-[50vw] sticky z-40 target-img rounded-l-[15px]">
         {/* {activeTab===tab && (<img src={`${imageSrc}`} alt="" className="pt-[150px] pl-[25px]"/>)} */}
        { tabs.map(({ tab,imageSrc })=>(
-            activeTab && activeTab===tab && (<img src={imageSrc} alt="" className="pt-[150px] pl-[25px]"/>)
+            activeTab && activeTab===tab && (<img key={tab} src={imageSrc} alt="" className="pt-[150px] pl-[25px]"/>)
         ))}
       </div>
     </section>

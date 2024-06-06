@@ -1,10 +1,10 @@
-import Approach from "@/components/Approach";
+
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
+
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import  Navbar  from "@/components/ui/floating-navbar";
-import { navItems } from "@/data";
+
 import "./globals.css";
 import StickyScrollSection from "@/components/Scrollbar";
 import { InfiniteMovingCardsDemo } from "@/components/Images";

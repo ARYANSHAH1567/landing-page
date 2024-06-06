@@ -1,5 +1,5 @@
 "use client"
-import { Key } from "lucide-react";
+
 import React, { useState } from "react";
 
 const Target: React.FC = () => {

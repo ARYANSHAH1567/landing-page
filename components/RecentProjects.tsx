@@ -1,11 +1,5 @@
 
 "use client";
-
-import { FaLocationArrow } from "react-icons/fa6";
-
-import { projects } from "@/data";
-import { PinContainer } from "./ui/3dPin";
-import { redirect } from "next/dist/server/api-utils";
 import { HoverEffect } from "./ui/Card-hover-effect";
 
 
